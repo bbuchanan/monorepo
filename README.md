@@ -4,13 +4,13 @@ The purpose of this repository is to server as a template workspace for future a
 The project is based on React 16.x and Expo SDK 37 set up with Typescript templates for both of the clients and the common section.
 
 The folder structure is as follows:
-
+```
 - main level
   +-- packages
   | +-- common (houses the common logic to be shared between the apps)
   | +-- mobile (expo based react native app)
   | +-- web (web based react project)
-
+```
 ### Package naming convention
 
 There is a top level `package.json` file that denotes that this a workspace and that all packages within the workspace will be found in the `packages/` directory. Within each package lives another `package.json`. The naming convention is `monorepo/{module}` where the module = common, mobile or web. It is recommended that you replace the `@monorepo` portion of your package name with your own workspace name in each `package.json` and all resulting references.
