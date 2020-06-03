@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "author": {
+    "name": "Bill Buchanan",
+    "email": "bbuchanan@gmail.com"
+  },
   "private": true,
   "workspaces": [
     "packages/*"
